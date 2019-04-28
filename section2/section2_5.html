@@ -1,0 +1,23 @@
+<script type="text/javascript">
+var numbers = [1,2,3,4,5]
+var sum = 0;
+
+//配列の一つ一つの数字を合計に足す
+//numbers.forEach(function(number){
+//    sum += number;
+//});
+
+//udemy 以下のようにすることも可能
+//https://www.udemy.com/javascriptes6/learn/v4/t/lecture/9848078?start=0
+
+function adder(number){
+    sum += number;
+}
+numbers.forEach(adder);
+
+
+
+//合計を表示する。
+console.log(sum);
+
+</script>
