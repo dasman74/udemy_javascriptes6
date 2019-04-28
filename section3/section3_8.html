@@ -1,0 +1,16 @@
+<script type="text/javascript">
+
+//mapの使い方
+var cars = [
+{type:'軽自動車',price:'安い'},
+{type:'高級車',price:'高い'}
+];
+
+var prices = cars.map(function(car){
+    console.log(car)
+    return car.price;
+});
+console.log(cars.pluck);
+//console.log(prices);
+
+</script>
